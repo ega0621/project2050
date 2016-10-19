@@ -1,0 +1,84 @@
+h1 {
+    text-align:center;
+    font-family: helvetica;
+    font-type: bold;
+    color: white;
+}
+
+h2 {
+  text-align:center;
+    font-family: helvetica;
+    font-type: bold;
+    color: #286DA8;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Helvetica;
+}
+
+li {
+    float: left;
+    font-size: 18px;
+}
+
+li a {
+    display: block;
+    color: #CD5360;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color:#CD5360 ;
+    color: white;
+}
+
+.active {
+background-color: #CD5360;
+color: white;
+}
+body {
+  background-color: #F4F4F4;
+}
+
+p {
+  font-family: serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.main {
+  background-color: #286DA8;
+  padding:10px;
+}
+.nav {
+  background-color: white;
+  border: 10px;
+  border-color: white;
+}
+
+.contact-btn {
+  float: right;
+}
+.contact-btn a{
+  color: #CD5360;
+  font-family: helvetica
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 4px 10px;
+  border: 2px solid #286DA8;
+  positioning: absolute;
+  bottom: 0px;
+  background-color: white;
+}
+
+.contact-btn a:active {
+ top: 2px;
+}
